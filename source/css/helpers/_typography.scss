@@ -10,15 +10,41 @@ strong { font-weight: 500; }
 
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
-	padding: 0;
-	font-weight: 500; }
+	padding: 0; }
 
 p { margin: 5px 0; }
 
-em {
-	font-style: normal;
-	font-weight: 700; }
 
 // ---------------------------------------------------
 // Custom typography classes
 // ---------------------------------------------------
+
+h2 {
+color: $color--black;
+font-family: 'agora_xthin';
+font-size: 60px;
+font-weight: 400;
+font-variant: small-caps;
+}
+
+h3 {
+color: $color--black;
+font-family: 'agora_regular';
+font-size: 36px;
+font-weight: 400;
+font-variant: small-caps;
+}
+
+h4 {
+color: $color--black;
+font-family: 'agora_light';
+font-size: 24px;
+font-weight: 300;
+}
+
+p{
+color: $color--black;
+font-family: 'agora_light';
+font-size: 18px;
+font-weight: 300;
+}
