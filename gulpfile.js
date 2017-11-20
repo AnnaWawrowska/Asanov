@@ -57,7 +57,7 @@ gulp.task('copy', function() {
 })
 
 gulp.task('build', function(cb) {
-  runSequence('clean', 'html', 'copy', 'images', cb)
+  runSequence('clean', 'html', 'sass', 'copy', 'images', cb)
 });
 
 gulp.task('bulid:server', ['bulid'], function() {
