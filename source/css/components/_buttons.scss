@@ -1,0 +1,22 @@
+// ----------------buttons--------------------------
+
+.btn {
+	&--yellow {
+		padding: 10px 37px 10px 36px;
+		background-color: $color--yellow;
+		border-radius: 10px;
+		position: relative;
+		margin-right: 63px;
+		letter-spacing: 0.7px;
+
+		&:after {
+			content: '';
+			display: block;
+			width: 130px;
+			border-bottom: 1px dotted $color--gray-2;
+			position: absolute;
+			bottom: 10px;
+			left: 35px;
+		}
+	}
+}

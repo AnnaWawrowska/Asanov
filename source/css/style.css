@@ -542,6 +542,11 @@ fieldset {
   min-width: auto;
 }
 
+button {
+  padding: 0;
+  background-color: transparent;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 15px;
@@ -599,6 +604,84 @@ p {
 
 /* -- Vendors -- */
 /* -- Elements -- */
-h1 {
-  color: red;
+.header {
+  padding: 20px 230px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: end;
+      align-items: flex-end;
+}
+
+.header__left {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__right {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__logo {
+  padding-left: 65px;
+}
+
+.header__logout {
+  width: 25px;
+  height: 30px;
+  border: 2px solid #212121;
+  border-left: none;
+  position: relative;
+  margin-top: 5px;
+}
+
+.header__logout:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  top: 7px;
+  left: -8px;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/ico-arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nav__toggle {
+  width: 25px;
+  height: 18px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.nav__toggle span {
+  width: 25px;
+  border-top: 3px solid #212121;
+  border-radius: 30%;
+}
+
+.btn--yellow {
+  padding: 10px 37px 10px 36px;
+  background-color: #ffd200;
+  border-radius: 10px;
+  position: relative;
+  margin-right: 63px;
+  letter-spacing: 0.7px;
+}
+
+.btn--yellow:after {
+  content: '';
+  display: block;
+  width: 130px;
+  border-bottom: 1px dotted #212121;
+  position: absolute;
+  bottom: 10px;
+  left: 35px;
 }
