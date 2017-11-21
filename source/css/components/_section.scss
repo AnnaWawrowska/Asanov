@@ -1,0 +1,28 @@
+// ---------------Section--------------------------
+.section {
+	&--hero {
+		background-image: url(../img/bg-hero.jpg);
+		text-align: center;
+		padding-bottom: 266px;
+		    padding-top: 11px;
+	}
+	&--steps {
+		padding-top: 55px;
+		padding-bottom: 94px;
+	}
+	&--advantage {
+		background-color: $color--beige;
+		text-align: center;
+		padding-top: 14px;
+		padding-bottom: 78px;
+	}
+	&--solutions {
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 114px;
+	}
+	&--testimonials {
+		background-image: url(../img/bg-book.jpg);
+		background-position: center;
+	}
+}

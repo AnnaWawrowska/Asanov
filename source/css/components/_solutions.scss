@@ -1,0 +1,67 @@
+// ---------------solutions--------------------------
+
+.solutions {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 55px;
+	&__box {
+		width: 314px;
+		border-radius: 10px;
+		background-color: $color--yellow;
+		position: relative;
+	}
+	&__title {
+		padding: 38px 0 32px;
+		letter-spacing: 5px;
+
+	}
+	&__list {
+		height: 262px;
+		border: 5px solid $color--yellow;
+		background-color: $color--white;
+		padding-left: 24px;
+		padding-top: 21px;
+	}
+	&__element {
+		position: relative;
+		text-align: left;
+		padding-bottom: 11px;
+		padding-left: 37px;
+		font-family: 'agora_regular';
+		font-size: 18px;
+
+		&:before {
+			content: '';
+			height: 20px;
+			width: 20px;
+			background-image: url('../img/ico-list.png');
+			background-repeat: no-repeat;
+			background-size: contain;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+	&__price {
+		position: absolute;
+		bottom: 60px;
+		left: 50%;
+		transform: translateX(-50%);
+		font-size: 60px;
+		font-weight: 300;
+		letter-spacing: -1.32px;
+	}
+	&__make {
+		padding-top: 8px;
+		padding-bottom: 13px;
+		display: block;
+		font-family: 'agora_thin';
+		font-size: 22px;
+		font-weight: 400;
+		letter-spacing: 2.7px;
+		span {
+			letter-spacing: 2px;
+			font-variant: small-caps;
+		}
+	}
+}

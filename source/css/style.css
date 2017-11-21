@@ -578,6 +578,9 @@ h2 {
   font-size: 60px;
   font-weight: 400;
   font-variant: small-caps;
+  padding-top: 30px;
+  padding-bottom: 13px;
+  letter-spacing: 7.2px;
 }
 
 h3 {
@@ -605,7 +608,7 @@ p {
 /* -- Vendors -- */
 /* -- Elements -- */
 .header {
-  padding: 20px 230px;
+  padding: 21px 230px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
@@ -667,6 +670,18 @@ p {
   border-radius: 30%;
 }
 
+.btn {
+  border: 2px solid #212121;
+  border-radius: 10px;
+  padding: 17px 34px;
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: 'agora_thin';
+  letter-spacing: 1.7px;
+  margin-top: 65px;
+}
+
 .btn--yellow {
   padding: 10px 37px 10px 36px;
   background-color: #ffd200;
@@ -684,4 +699,221 @@ p {
   position: absolute;
   bottom: 10px;
   left: 35px;
+}
+
+.btn--red {
+  border: none;
+  background-color: #e11a27;
+  color: #ffffff;
+}
+
+.section--hero {
+  background-image: url(../img/bg-hero.jpg);
+  text-align: center;
+  padding-bottom: 266px;
+  padding-top: 11px;
+}
+
+.section--steps {
+  padding-top: 55px;
+  padding-bottom: 94px;
+}
+
+.section--advantage {
+  background-color: #f7f0e6;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 78px;
+}
+
+.section--solutions {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 114px;
+}
+
+.section--testimonials {
+  background-image: url(../img/bg-book.jpg);
+  background-position: center;
+}
+
+.step {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 66px;
+  position: relative;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.step:after {
+  content: '';
+  border-bottom: 5px dashed #ffd200;
+  position: absolute;
+  width: 100%;
+  top: 67px;
+  z-index: -1;
+}
+
+.step__box {
+  max-width: 140px;
+  text-align: center;
+}
+
+.step__ico {
+  width: 139px;
+  height: 139px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border: 5px solid #ffd200;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+
+.advantage {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding: 40px 21px 23px;
+}
+
+.advantage__box {
+  width: 267px;
+}
+
+.advantage__img {
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.advantage__content {
+  padding-top: 15px;
+  font-size: 16px;
+}
+
+.solutions {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding-top: 55px;
+}
+
+.solutions__box {
+  width: 314px;
+  border-radius: 10px;
+  background-color: #ffd200;
+  position: relative;
+}
+
+.solutions__title {
+  padding: 38px 0 32px;
+  letter-spacing: 5px;
+}
+
+.solutions__list {
+  height: 262px;
+  border: 5px solid #ffd200;
+  background-color: #ffffff;
+  padding-left: 24px;
+  padding-top: 21px;
+}
+
+.solutions__element {
+  position: relative;
+  text-align: left;
+  padding-bottom: 11px;
+  padding-left: 37px;
+  font-family: 'agora_regular';
+  font-size: 18px;
+}
+
+.solutions__element:before {
+  content: '';
+  height: 20px;
+  width: 20px;
+  background-image: url("../img/ico-list.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.solutions__price {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: -1.32px;
+}
+
+.solutions__make {
+  padding-top: 8px;
+  padding-bottom: 13px;
+  display: block;
+  font-family: 'agora_thin';
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 2.7px;
+}
+
+.solutions__make span {
+  letter-spacing: 2px;
+  font-variant: small-caps;
+}
+
+.testimonials {
+  width: 50%;
+  padding-top: 27px;
+}
+
+.testimonials__description {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  padding-bottom: 20px;
+}
+
+.testimonials__img {
+  border-radius: 50%;
+}
+
+.testimonials__name {
+  padding-left: 30px;
+}
+
+.testimonials__content {
+  padding-bottom: 12px;
+}
+
+.testimonials__arrow {
+  font-size: 16px;
+  font-family: 'agora_thin';
+  text-align: right;
+  position: relative;
+  padding-top: 33px;
+  padding-right: 39px;
+}
+
+.testimonials__arrow:after {
+  content: '';
+  width: 27px;
+  height: 4px;
+  background-image: url(../img/ico-next_arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 7px;
+  right: 0;
 }

@@ -11,50 +11,135 @@
 
 <body>
 	<header class="header">
-			<div class="header__left">
-				<button class="nav__toggle">
-					<span></span>
-					<span></span>
-					<span></span>
-				</button>
-				<a class="header__logo" href="#"><img src="img/logo.svg" alt=""></a>
-			</div>
-			<div class="header__right">
-				<a class="btn btn--yellow" href="tel:+11 235 813 2134">+11 235 813 2134</a>
-				<button class="header__logout"name="button" title="logout"></button>
-			</div>
+		<div class="header__left">
+			<button class="nav__toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<a class="header__logo" href="#"><img src="img/logo.svg" alt=""></a>
+		</div>
+		<div class="header__right">
+			<a class="btn--yellow" href="tel:+11 235 813 2134">+11 235 813 2134</a>
+			<button class="header__logout"name="button" title="logout"></button>
+		</div>
 	</header>
 
 	<main>
 		<section class="section--hero">
 			<h2>Create your own photostory</h2>
 			<h4>Make your photobook online</h4>
-			<button type="button" name="button">make your photobook</button>
+			<button class="btn">make your photobook</button>
 		</section>
 		<section class="section--steps">
-			<div class="step">
-				<div class="step__ico">
-					<img src="img/ico-cloud.png" alt="">
+			<div class="container">
+				<div class="step">
+					<div class="step__box">
+						<div class="step__ico ">
+							<img src="img/ico-cloud.png" alt="">
+						</div>
+						<h4>Download photos</h4>
+					</div>
+					<div class="step__box">
+						<div class="step__ico">
+							<img src="img/ico-desktop.png" alt="">
+						</div>
+						<h4>Design your photobook</h4>
+					</div>
+					<div class="step__box">
+						<div class="step__ico">
+							<img src="img/ico-pay.png" alt="">
+						</div>
+						<h4>Pay <br> for service</h4>
+					</div>
+					<div class="step__box">
+						<div class="step__ico">
+							<img src="img/ico-shipment.png" alt="">
+						</div>
+						<h4>Get your photobook</h4>
+					</div>
 				</div>
-				<h4>Download photos</h4>
 			</div>
-			<div class="step">
-				<div class="step__ico">
-					<img src="img/ico-desktop.png" alt="">
+		</section>
+		<section class="section--advantage">
+			<div class="container">
+				<h2>Advantage</h2>
+				<div class="advantage">
+					<div class="advantage__box">
+						<img class="advantage__img" src="img/img-socials.jpg" alt="">
+						<h4>Import photos <br> from your social networks</h4>
+						<p class="advantage__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt modi tempora</p>
+					</div>
+					<div class="advantage__box">
+						<img class="advantage__img" src="img/img-cat.jpg" alt="">
+						<h4>Photo editing </h4>
+						<p class="advantage__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ora incidunt ut labore.</p>
+					</div>
+					<div class="advantage__box">
+						<img class="advantage__img" src="img/img-templates.jpg" alt="">
+						<h4>Templates</h4>
+						<p class="advantage__content">Lorem ipsum dolor sit amet, consectetur adipisicing. Ut enim ad minim, nostrud exercitation ullamco laboris nisi ut aliquip ex commodo.</p>
+					</div>
 				</div>
-				<h4>Design your photobook</h4>
+				<button class="btn btn--red">make your photobook</button>
+				</div>
+		</section>
+		<section class="section--solutions">
+			<div class="container">
+				<h2>Ready solutions</h2>
+				<div class="solutions">
+					<div class="solutions__box">
+						<h3 class="solutions__title">LightBook</h3>
+						<ul  class="solutions__list">
+							<li class="solutions__element">15×10 cm</li>
+							<li class="solutions__element">12 pages</li>
+							<li class="solutions__element">binding on the clip</li>
+						</ul>
+						<h4 class="solutions__price">$129</h4>
+						<a class="solutions__make">Make your <span>LightBook</span></a>
+					</div>
+					<div class="solutions__box">
+						<h3 class="solutions__title">ClassicBook</h3>
+						<ul  class="solutions__list">
+							<li class="solutions__element">30×21 cm</li>
+							<li class="solutions__element">36 pages</li>
+							<li class="solutions__element">binding on the spring</li>
+							<li class="solutions__element">fabric cover</li>
+						</ul>
+						<h4 class="solutions__price">$239</h4>
+						<a class="solutions__make">Make your <span>ClassicBook</span></a>
+					</div>
+					<div class="solutions__box">
+						<h3 class="solutions__title">PremiumBook</h3>
+						<ul  class="solutions__list">
+							<li class="solutions__element">42×50 cm</li>
+							<li class="solutions__element">50 pages</li>
+							<li class="solutions__element">hardcover</li>
+							<li class="solutions__element">leather cover</li>
+							<li class="solutions__element">free shipping</li>
+						</ul>
+						<h4 class="solutions__price">$759</h4>
+						<a class="solutions__make">Make your <span>PremiumBook</span></a>
+					</div>
+				</div>
 			</div>
-			<div class="step">
-				<div class="step__ico">
-					<img src="img/ico-pay.png" alt="">
+		</section>
+		<section class="section--testimonials">
+			<div class="container">
+				<h2>Testimonials</h2>
+				<div class="testimonials">
+					<div class="testimonials__description">
+						<img class="testimonials__img" src="img/img-John_Doe.jpg" alt="">
+						<div class="testimonials__name">
+							<h3>John Doe</h3>
+							<p>Wedding photographer</p>
+						</div>
+					</div>
+					<p class="testimonials__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+					<p class="testimonials__arrow">Next testimonial</p>
 				</div>
-				<h4>Pay for service</h4>
-			</div>
-			<div class="step">
-				<div class="step__ico">
-					<img src="img/ico-shipment.png" alt="">
-				</div>
-				<h4>Get your photobook</h4>
+				<button class="btn ">make your photobook</button>
 			</div>
 		</section>
 	</main>
